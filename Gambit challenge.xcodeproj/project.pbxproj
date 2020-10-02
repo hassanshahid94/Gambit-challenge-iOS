@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		352DC1BA25262DFF007800A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352DC1B925262DFF007800A4 /* AppDelegate.swift */; };
+		352DC1BC25262DFF007800A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352DC1BB25262DFF007800A4 /* SceneDelegate.swift */; };
+		352DC1BE25262DFF007800A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352DC1BD25262DFF007800A4 /* ViewController.swift */; };
+		352DC1C125262DFF007800A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 352DC1BF25262DFF007800A4 /* Main.storyboard */; };
+		352DC1C325262E00007800A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 352DC1C225262E00007800A4 /* Assets.xcassets */; };
+		352DC1C625262E00007800A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 352DC1C425262E00007800A4 /* LaunchScreen.storyboard */; };
+		359E614B25264322007CAC10 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359E614A25264322007CAC10 /* Extension.swift */; };
+		359E615625264BCE007CAC10 /* ModbusCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359E615525264BCE007CAC10 /* ModbusCCell.swift */; };
+		359E615D2526593F007CAC10 /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359E615C2526593F007CAC10 /* ServerManager.swift */; };
+		359E61602526649B007CAC10 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359E615F2526649B007CAC10 /* Constants.swift */; };
+		9B52ABEACAAE2FE4065432E9 /* Pods_Gambit_challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892508F7400A7C09417E867E /* Pods_Gambit_challenge.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		352DC1B625262DFF007800A4 /* Gambit challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gambit challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		352DC1B925262DFF007800A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		352DC1BB25262DFF007800A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		352DC1BD25262DFF007800A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		352DC1C025262DFF007800A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		352DC1C225262E00007800A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		352DC1C525262E00007800A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		352DC1C725262E00007800A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		359E614A25264322007CAC10 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		359E615525264BCE007CAC10 /* ModbusCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModbusCCell.swift; sourceTree = "<group>"; };
+		359E615C2526593F007CAC10 /* ServerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerManager.swift; sourceTree = "<group>"; };
+		359E615F2526649B007CAC10 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		892508F7400A7C09417E867E /* Pods_Gambit_challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gambit_challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA9F5D50D16BC2C15F71F722 /* Pods-Gambit challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gambit challenge.debug.xcconfig"; path = "Target Support Files/Pods-Gambit challenge/Pods-Gambit challenge.debug.xcconfig"; sourceTree = "<group>"; };
+		ED9E6EE79AE9B3D3E825D935 /* Pods-Gambit challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gambit challenge.release.xcconfig"; path = "Target Support Files/Pods-Gambit challenge/Pods-Gambit challenge.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		352DC1B325262DFF007800A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B52ABEACAAE2FE4065432E9 /* Pods_Gambit_challenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D5962F8B82E07FCB6F44BA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				892508F7400A7C09417E867E /* Pods_Gambit_challenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		352DC1AD25262DFF007800A4 = {
+			isa = PBXGroup;
+			children = (
+				352DC1B825262DFF007800A4 /* Gambit challenge */,
+				352DC1B725262DFF007800A4 /* Products */,
+				36C12DB8BEC6C6339ADB4DBB /* Pods */,
+				2D5962F8B82E07FCB6F44BA9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		352DC1B725262DFF007800A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				352DC1B625262DFF007800A4 /* Gambit challenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		352DC1B825262DFF007800A4 /* Gambit challenge */ = {
+			isa = PBXGroup;
+			children = (
+				359E615425264BA9007CAC10 /* CollectionView Cells */,
+				352DC1B925262DFF007800A4 /* AppDelegate.swift */,
+				352DC1BB25262DFF007800A4 /* SceneDelegate.swift */,
+				352DC1BD25262DFF007800A4 /* ViewController.swift */,
+				352DC1BF25262DFF007800A4 /* Main.storyboard */,
+				352DC1C225262E00007800A4 /* Assets.xcassets */,
+				352DC1C425262E00007800A4 /* LaunchScreen.storyboard */,
+				352DC1C725262E00007800A4 /* Info.plist */,
+				359E614A25264322007CAC10 /* Extension.swift */,
+				359E615C2526593F007CAC10 /* ServerManager.swift */,
+				359E615F2526649B007CAC10 /* Constants.swift */,
+			);
+			path = "Gambit challenge";
+			sourceTree = "<group>";
+		};
+		359E615425264BA9007CAC10 /* CollectionView Cells */ = {
+			isa = PBXGroup;
+			children = (
+				359E615525264BCE007CAC10 /* ModbusCCell.swift */,
+			);
+			path = "CollectionView Cells";
+			sourceTree = "<group>";
+		};
+		36C12DB8BEC6C6339ADB4DBB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA9F5D50D16BC2C15F71F722 /* Pods-Gambit challenge.debug.xcconfig */,
+				ED9E6EE79AE9B3D3E825D935 /* Pods-Gambit challenge.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		352DC1B525262DFF007800A4 /* Gambit challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 352DC1CA25262E00007800A4 /* Build configuration list for PBXNativeTarget "Gambit challenge" */;
+			buildPhases = (
+				753F2966F48304A730D7A98A /* [CP] Check Pods Manifest.lock */,
+				352DC1B225262DFF007800A4 /* Sources */,
+				352DC1B325262DFF007800A4 /* Frameworks */,
+				352DC1B425262DFF007800A4 /* Resources */,
+				987E1038B06E275F47F0A9C6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gambit challenge";
+			productName = "Gambit challenge";
+			productReference = 352DC1B625262DFF007800A4 /* Gambit challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		352DC1AE25262DFF007800A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					352DC1B525262DFF007800A4 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 352DC1B125262DFF007800A4 /* Build configuration list for PBXProject "Gambit challenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 352DC1AD25262DFF007800A4;
+			productRefGroup = 352DC1B725262DFF007800A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				352DC1B525262DFF007800A4 /* Gambit challenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		352DC1B425262DFF007800A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				352DC1C625262E00007800A4 /* LaunchScreen.storyboard in Resources */,
+				352DC1C325262E00007800A4 /* Assets.xcassets in Resources */,
+				352DC1C125262DFF007800A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		753F2966F48304A730D7A98A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gambit challenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		987E1038B06E275F47F0A9C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gambit challenge/Pods-Gambit challenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gambit challenge/Pods-Gambit challenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gambit challenge/Pods-Gambit challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		352DC1B225262DFF007800A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359E615625264BCE007CAC10 /* ModbusCCell.swift in Sources */,
+				359E614B25264322007CAC10 /* Extension.swift in Sources */,
+				352DC1BE25262DFF007800A4 /* ViewController.swift in Sources */,
+				352DC1BA25262DFF007800A4 /* AppDelegate.swift in Sources */,
+				359E61602526649B007CAC10 /* Constants.swift in Sources */,
+				359E615D2526593F007CAC10 /* ServerManager.swift in Sources */,
+				352DC1BC25262DFF007800A4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		352DC1BF25262DFF007800A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				352DC1C025262DFF007800A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		352DC1C425262E00007800A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				352DC1C525262E00007800A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		352DC1C825262E00007800A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		352DC1C925262E00007800A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		352DC1CB25262E00007800A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA9F5D50D16BC2C15F71F722 /* Pods-Gambit challenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CXH6TR46LB;
+				INFOPLIST_FILE = "Gambit challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hassan.Gambit-challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		352DC1CC25262E00007800A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED9E6EE79AE9B3D3E825D935 /* Pods-Gambit challenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CXH6TR46LB;
+				INFOPLIST_FILE = "Gambit challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hassan.Gambit-challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		352DC1B125262DFF007800A4 /* Build configuration list for PBXProject "Gambit challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				352DC1C825262E00007800A4 /* Debug */,
+				352DC1C925262E00007800A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		352DC1CA25262E00007800A4 /* Build configuration list for PBXNativeTarget "Gambit challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				352DC1CB25262E00007800A4 /* Debug */,
+				352DC1CC25262E00007800A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 352DC1AE25262DFF007800A4 /* Project object */;
+}
