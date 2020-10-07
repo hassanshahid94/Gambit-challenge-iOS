@@ -17,8 +17,20 @@
 		359E615625264BCE007CAC10 /* ModbusCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359E615525264BCE007CAC10 /* ModbusCCell.swift */; };
 		359E615D2526593F007CAC10 /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359E615C2526593F007CAC10 /* ServerManager.swift */; };
 		359E61602526649B007CAC10 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359E615F2526649B007CAC10 /* Constants.swift */; };
+		35F3CF4D252E2FC400CA6BAC /* Gambit_challengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F3CF4C252E2FC400CA6BAC /* Gambit_challengeTests.swift */; };
+		35F3CF61252E35DA00CA6BAC /* feed.txt in Resources */ = {isa = PBXBuildFile; fileRef = 35F3CF60252E35DA00CA6BAC /* feed.txt */; };
 		9B52ABEACAAE2FE4065432E9 /* Pods_Gambit_challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892508F7400A7C09417E867E /* Pods_Gambit_challenge.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35F3CF4F252E2FC400CA6BAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 352DC1AE25262DFF007800A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 352DC1B525262DFF007800A4;
+			remoteInfo = "Gambit challenge";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		352DC1B625262DFF007800A4 /* Gambit challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gambit challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,6 +45,10 @@
 		359E615525264BCE007CAC10 /* ModbusCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModbusCCell.swift; sourceTree = "<group>"; };
 		359E615C2526593F007CAC10 /* ServerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerManager.swift; sourceTree = "<group>"; };
 		359E615F2526649B007CAC10 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		35F3CF4A252E2FC400CA6BAC /* Gambit challengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gambit challengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35F3CF4C252E2FC400CA6BAC /* Gambit_challengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gambit_challengeTests.swift; sourceTree = "<group>"; };
+		35F3CF4E252E2FC400CA6BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35F3CF60252E35DA00CA6BAC /* feed.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = feed.txt; sourceTree = "<group>"; };
 		892508F7400A7C09417E867E /* Pods_Gambit_challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gambit_challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA9F5D50D16BC2C15F71F722 /* Pods-Gambit challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gambit challenge.debug.xcconfig"; path = "Target Support Files/Pods-Gambit challenge/Pods-Gambit challenge.debug.xcconfig"; sourceTree = "<group>"; };
 		ED9E6EE79AE9B3D3E825D935 /* Pods-Gambit challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gambit challenge.release.xcconfig"; path = "Target Support Files/Pods-Gambit challenge/Pods-Gambit challenge.release.xcconfig"; sourceTree = "<group>"; };
@@ -44,6 +60,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B52ABEACAAE2FE4065432E9 /* Pods_Gambit_challenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35F3CF47252E2FC400CA6BAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				352DC1B825262DFF007800A4 /* Gambit challenge */,
+				35F3CF4B252E2FC400CA6BAC /* Gambit challengeTests */,
 				352DC1B725262DFF007800A4 /* Products */,
 				36C12DB8BEC6C6339ADB4DBB /* Pods */,
 				2D5962F8B82E07FCB6F44BA9 /* Frameworks */,
@@ -72,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				352DC1B625262DFF007800A4 /* Gambit challenge.app */,
+				35F3CF4A252E2FC400CA6BAC /* Gambit challengeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,6 +115,7 @@
 				359E614A25264322007CAC10 /* Extension.swift */,
 				359E615C2526593F007CAC10 /* ServerManager.swift */,
 				359E615F2526649B007CAC10 /* Constants.swift */,
+				35F3CF60252E35DA00CA6BAC /* feed.txt */,
 			);
 			path = "Gambit challenge";
 			sourceTree = "<group>";
@@ -100,6 +126,15 @@
 				359E615525264BCE007CAC10 /* ModbusCCell.swift */,
 			);
 			path = "CollectionView Cells";
+			sourceTree = "<group>";
+		};
+		35F3CF4B252E2FC400CA6BAC /* Gambit challengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				35F3CF4C252E2FC400CA6BAC /* Gambit_challengeTests.swift */,
+				35F3CF4E252E2FC400CA6BAC /* Info.plist */,
+			);
+			path = "Gambit challengeTests";
 			sourceTree = "<group>";
 		};
 		36C12DB8BEC6C6339ADB4DBB /* Pods */ = {
@@ -133,6 +168,24 @@
 			productReference = 352DC1B625262DFF007800A4 /* Gambit challenge.app */;
 			productType = "com.apple.product-type.application";
 		};
+		35F3CF49252E2FC400CA6BAC /* Gambit challengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35F3CF51252E2FC400CA6BAC /* Build configuration list for PBXNativeTarget "Gambit challengeTests" */;
+			buildPhases = (
+				35F3CF46252E2FC400CA6BAC /* Sources */,
+				35F3CF47252E2FC400CA6BAC /* Frameworks */,
+				35F3CF48252E2FC400CA6BAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35F3CF50252E2FC400CA6BAC /* PBXTargetDependency */,
+			);
+			name = "Gambit challengeTests";
+			productName = "Gambit challengeTests";
+			productReference = 35F3CF4A252E2FC400CA6BAC /* Gambit challengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -144,6 +197,10 @@
 				TargetAttributes = {
 					352DC1B525262DFF007800A4 = {
 						CreatedOnToolsVersion = 12.0.1;
+					};
+					35F3CF49252E2FC400CA6BAC = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 352DC1B525262DFF007800A4;
 					};
 				};
 			};
@@ -161,6 +218,7 @@
 			projectRoot = "";
 			targets = (
 				352DC1B525262DFF007800A4 /* Gambit challenge */,
+				35F3CF49252E2FC400CA6BAC /* Gambit challengeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -172,7 +230,15 @@
 			files = (
 				352DC1C625262E00007800A4 /* LaunchScreen.storyboard in Resources */,
 				352DC1C325262E00007800A4 /* Assets.xcassets in Resources */,
+				35F3CF61252E35DA00CA6BAC /* feed.txt in Resources */,
 				352DC1C125262DFF007800A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35F3CF48252E2FC400CA6BAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,7 +301,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		35F3CF46252E2FC400CA6BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35F3CF4D252E2FC400CA6BAC /* Gambit_challengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35F3CF50252E2FC400CA6BAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 352DC1B525262DFF007800A4 /* Gambit challenge */;
+			targetProxy = 35F3CF4F252E2FC400CA6BAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		352DC1BF25262DFF007800A4 /* Main.storyboard */ = {
@@ -413,6 +495,46 @@
 			};
 			name = Release;
 		};
+		35F3CF52252E2FC400CA6BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CXH6TR46LB;
+				INFOPLIST_FILE = "Gambit challengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hassan.Gambit-challengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gambit challenge.app/Gambit challenge";
+			};
+			name = Debug;
+		};
+		35F3CF53252E2FC400CA6BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CXH6TR46LB;
+				INFOPLIST_FILE = "Gambit challengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hassan.Gambit-challengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gambit challenge.app/Gambit challenge";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -430,6 +552,15 @@
 			buildConfigurations = (
 				352DC1CB25262E00007800A4 /* Debug */,
 				352DC1CC25262E00007800A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35F3CF51252E2FC400CA6BAC /* Build configuration list for PBXNativeTarget "Gambit challengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35F3CF52252E2FC400CA6BAC /* Debug */,
+				35F3CF53252E2FC400CA6BAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
